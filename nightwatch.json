@@ -1,0 +1,52 @@
+{
+  "src_folders" : ["src/tests"],
+  "output_folder" : "src/reports",
+  "custom_commands_path" : "src/customCommands",
+  "custom_assertions_path" : "src/assertions",
+  "page_objects_path" : "src/pageObjects",
+  "globals_path" : "src/globals.js",
+
+  "selenium" : {
+    "start_process" : false,
+    "server_path": "",
+    "cli_args": {
+        "webdriver.chrome.driver": "bin/chromedriver"
+    }
+  },
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://www.wp.pl",
+      "selenium_port"  : 9515,
+      "selenium_host"  : "localhost",
+      "default_path_prefix" : "",
+      "request_timeout_options" : {
+        "timeout" : 5000,
+        "retry_attempts" : 2
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "chromeOptions" : {
+          "args" : [
+            "--no-sandbox",
+            "--window-size=1680,1050"
+          ]
+        }
+      },
+      "test_runner" : {
+        "type" : "mocha",
+        "options" : {
+          "ui" : "bdd",
+          "reporter" : "spec"
+        }
+      },
+      "silent": true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      }
+    }
+  }
+}
