@@ -1,7 +1,7 @@
 /**
  * Created by paula on 8/22/17.
  */
-/*
+
  exports.command = function ({locatorType = 'css selector', locator}, callback) {
  let results = [];
 
@@ -16,4 +16,3 @@
  });
  });
  };
- */

@@ -1,7 +1,7 @@
 /**
  * Created by paula on 8/22/17.
  */
-/*
+
  exports.command = function (browser) {
  browser.pause(1000);
  browser.windowHandles((result) => {
@@ -11,4 +11,3 @@
 
  return this;
  };
- */
