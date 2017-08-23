@@ -4,5 +4,6 @@
 module.exports = {
     elements: {
         homeSearch: '#home-search-keywords',
+        searchButton: '.orange_button',
     },
 };
