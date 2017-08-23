@@ -6,6 +6,5 @@ class UserUtils {
     fakeFirstName () {
         return this.browser.globals.faker.name.firstName();
     }
-
 }
 module.exports = UserUtils;

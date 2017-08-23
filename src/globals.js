@@ -5,21 +5,21 @@ module.exports = {
 
     faker,
 
-    before : function (done) {
+    before (done) {
         chromedriver.start();
         done();
     },
 
-    after : function (done) {
+    after (done) {
         chromedriver.stop();
         done();
     },
 
-    beforeEach : function (done) {
+    beforeEach (done) {
         done();
     },
 
-    afterEach : function (done) {
+    afterEach (done) {
         done();
     },
-}
+};

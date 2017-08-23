@@ -3,6 +3,6 @@
  */
 module.exports = {
     elements: {
-        homeSearch : '#home-search-keywords',
+        homeSearch: '#home-search-keywords',
     },
 };

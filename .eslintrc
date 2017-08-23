@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "func-names": [ERROR, "never"],
+    "indent": [WARN, 4, { "SwitchCase": 1 }],
+    "prefer-template": OFF,
+    "arrow-body-style": [ERROR, "as-needed"],
+    "space-before-function-paren": [ERROR, "always"],
+    "max-len": OFF,
+    "class-methods-use-this": OFF,
+    "no-underscore-dangle": [ERROR, { "allowAfterThis": true, "allowAfterSuper": true }],
+    "no-unused-expressions": OFF,
+    "arrow-parens": [ERROR, "always"],
+    "no-restricted-syntax": [ERROR, "LabeledStatement", "WithStatement", "SwitchCase"]
+  },
+}
