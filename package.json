@@ -28,7 +28,10 @@
     "test": "nightwatch -e default",
     "lint": "eslint src",
     "clearValue": "nightwatch -e default src/tests/examples/clearValueExample.js",
-    "click": "nightwatch -e default src/tests/examples/clickExample.js"
+    "click": "nightwatch -e default src/tests/examples/clickExample.js",
+    "closeWindow": "nightwatch -e default src/tests/examples/closeWindowExample.js",
+    "maximizeWindow": "nightwatch -e default src/tests/examples/maximizeWindowExample.js",
+    "pause": "nightwatch -e default src/tests/examples/pauseExample.js"
   },
   "author": "",
   "license": "UNLICENSED"
